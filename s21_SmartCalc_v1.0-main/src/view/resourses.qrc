@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>img/noun-credit-1691368.png</file>
+        <file>img/noun-deposit-112924.png</file>
+        <file>img/plot.png</file>
+        <file>img/close_32x32.png</file>
+        <file>img/minimize32x32.png</file>
+        <file>img/myRPN.png</file>
+        <file>img/fx_42.png</file>
+        <file>img/about_32x32.png</file>
+        <file>img/me_bg.png</file>
+        <file>img/row_qt_c.jpg</file>
+    </qresource>
+</RCC>
