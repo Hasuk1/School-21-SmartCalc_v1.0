@@ -31,14 +31,19 @@ MainWindow::~MainWindow()
 
 void MainWindow::digits_num()
 {
-    QPushButton *button = static_cast<QPushButton*>(sender());
+    QPushButton* button = static_cast<QPushButton*>(sender());
     QString currentText = ui->Labe_out->text();
 
-    // Проверяем, является ли текущий текст "0"
     if (currentText == "0" && button->text() != "0") {
         ui->Labe_out->setText(button->text());
     } else {
         ui->Labe_out->setText(currentText + button->text());
+    }
+
+    if (ui->Labe_out->text().length() > 14) {
+        double value = ui->Labe_out->text().toDouble();
+        QString formattedText = QString::number(value, 'E', 6);
+        ui->Labe_out->setText(formattedText);
     }
 }
 
@@ -48,8 +53,7 @@ void MainWindow::delete_char()
     if (!currentText.isEmpty()) {
         currentText.chop(1);
         ui->Labe_out->setText(currentText);
-    }
-    else {
+    } else {
         ui->Labe_out->setText("0");
     }
 }
@@ -62,6 +66,7 @@ void MainWindow::delete_text()
 
 void MainWindow::on_PushButton_dot_clicked()
 {
-    if(!(ui->Labe_out->text().contains('.')))
+    if (!(ui->Labe_out->text().contains('.'))) {
         ui->Labe_out->setText(ui->Labe_out->text() + ".");
+    }
 }

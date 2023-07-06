@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 7.0.0, 2023-07-05T19:47:10. -->
+<!-- Written by QtCreator 7.0.0, 2023-07-06T06:46:35. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -249,7 +249,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/perlabru/my-project/SmartCalc_v1.0/qt/build-SmartCalc1-Desktop_x86_darwin_generic_mach_o_64bit-Debug/SmartCalc1.app/Contents/MacOS</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/perlabru/my-project/SmartCalc_v1.0/qt/build-SmartCalc1-Desktop_x86_darwin_generic_mach_o_64bit-Debug/SmartCalc.app/Contents/MacOS</value>
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>
