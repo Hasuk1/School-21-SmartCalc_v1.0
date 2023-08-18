@@ -73,7 +73,7 @@ void trim_null(char *result, NumStack *num_stack) {
   if (i <= 14) {
     sprintf(result, "%s", buf);
     for (; result[i] == '0'; i--) result[i] = '\0';
-    if (result[i] == '.') result[i] = '\0';
+    if (result[i] == '.' || result[i] == ',') result[i] = '\0';
   } else {
     sprintf(result, "%Le", res);
   }
